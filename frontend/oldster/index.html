@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile awesomeness</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic,300italic' rel='stylesheet' type='text/css'>
+
+    <style>
+
+      html, body {
+        width:  100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-smoothing: antialiased;
+      }
+
+      h3{
+        margin-top: 0px;
+      }
+
+      .popup{
+        background-color: white;
+        max-width: 400px;
+        width: 80%;
+        /*height: 200px;*/
+        position: absolute;
+        z-index: 1010;
+        top: 30%;
+        left: 50%;
+        opacity: 0;
+        text-align: center;
+        border-radius: 5px;
+        padding: 20px;
+        box-sizing: border-box;
+        -mox-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+      }
+
+      #profilePhoto{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+      }
+
+      .profileName{
+        font-weight: 100;
+        font-size: 18pt;
+        line-height: 120%;
+        margin-top: 15px;
+      }
+
+      .profileDescription{
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 12pt;
+        line-height: 120%;
+        color: #777;
+        /*font-style: italic;*/
+      }
+
+      .profileCity{
+        margin-top: 10px;
+        font-style: italic;
+      }
+
+      .profileLinks{
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+
+      .social{
+          /*position: absolute;
+          overflow: auto;
+          top: 0;
+          right: 0;*/
+          margin-top: 50px;
+          padding: 20px;
+          margin-bottom: 30px;
+          box-sizing: border-box;
+      }
+
+      .social-icon{
+          width: 50px;   
+          height: 50px;
+          display: inline-block;
+          /*color: white;*/
+          font-size: 20pt;
+          margin-left: 30px;
+          margin-right: 30px;
+      }
+
+      .twitter{
+          background: url('img/twitter.png');
+      }
+
+      .linkedin{
+          background: url('img/linkedin.png');
+      }
+
+      #popupCanvas{
+        position: absolute;
+        display: none;
+        z-index: 1000;
+        opacity: 0;
+        width: 100%;
+        /*height: 100%;*/
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="popupCanvas"></canvas>
+    <!-- <div class="container"> -->
+    <h3><a class="openSesame">Open Sesame</a></h3>
+    <!-- </div> -->
+
+    <div class="popup">
+      <img id="profilePhoto" src="img/profile.jpg">
+      <p class="profileName">Alonso Holmes</p>
+      <p class="profileDescription">
+        Frontend developer.
+        <br>
+        Making awesome things on the Internet.
+      </p>
+      <p class="profileCity">Boston, MA</p>
+      <div class="profileLinks">
+        <a href="http://twitter.com/alonsoholmes" target="_blank" class="social-icon twitter"></a>
+        <a href="http://www.linkedin.com/in/alonsoholmes" target="_blank" class="social-icon linkedin"></a>
+      </div>
+    </div>
+
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/stackblur.js"></script>
+
+    <script type="text/javascript">
+      $(window).load(function(){
+        //popup sizing
+        $(".popup").css("margin-left",-$(".popup").outerWidth()/2)
+        //slideup listener
+        $(".openSesame").click(function(e){
+          e.stopPropagation();
+          $(".popup").animate({"margin-top":-50,opacity:1},200)
+          $("#popupCanvas").show().animate({opacity:1},200)
+        })
+
+        $("html,body").click(function(){
+          $(".popup").animate({"margin-top":0,opacity:0},200)
+          $("#popupCanvas").animate({opacity:0},200,function(){
+            $(this).hide()
+          })
+        });
+
+        //canvas init
+        // var canvas = document.getElementById("popupCanvas");
+        // console.log(canvas.width)
+        // var ctx=canvas.getContext("2d");
+        // ctx.width = window.innerWidth;
+        // ctx.height = window.innerHeight;
+
+        //draw image
+        // var img = document.getElementById("profilePhoto");
+        stackBlurImage( "profilePhoto", "popupCanvas", 100, 1 );
+        // ctx.drawImage(img,0,0,canvas.width,canvas.height)
+        // 
+        // $(".openSesame").click()
+
+      })
+    </script>
+  </body>
+</html>

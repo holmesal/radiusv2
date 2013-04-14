@@ -1,0 +1,33 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+
+#outer{
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#header{
+	background-color: #C2EBCD;
+
+}
+
+#coverflow{
+	background-color: #2E6E8A;
+	height: 300px;
+}
+
+#controls{
+	background-color: #8ED47D;
+}
+
+#bandInfo{
+	background-color: #C2CD6A;
+}
+
+#twitter{
+	background-color: #75B1D1;
+}

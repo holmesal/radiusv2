@@ -1,0 +1,17 @@
+
+
+entity: {
+	artist: {
+		name: "",
+		city: "",
+		country: "",
+		links: {
+			soundcloud: "",
+			bandcamp: ""
+		}
+	},
+	track: {
+		name: "",
+		src: ""
+	}
+}
