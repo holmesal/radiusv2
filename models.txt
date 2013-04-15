@@ -12,6 +12,6 @@ entity: {
 	},
 	track: {
 		name: "",
-		src: ""
+		src: "/tracks/123456"
 	}
 }

@@ -3,11 +3,10 @@ define([
 	'jquery',
 	'underscore',
 	'backbone',
-	'soundcloud',
 	'soundmanager2',
 	'models/track',
 	'collections/playlist'
-], function ($, _, Backbone, SC, soundManager,  TrackModel, PlaylistCollection) {
+], function ($, _, Backbone, soundManager,  TrackModel, PlaylistCollection) {
 	'use strict';
 
 	var PlayerModel = Backbone.Model.extend({
@@ -23,40 +22,40 @@ define([
 		},
 
 		initialize: function(){
-			//handshake with soundcloud
-			this.scInit();
 			//create a new collection
 			this.collection = new PlaylistCollection();
 			this.getTracks();
 			//set current to the first track
 			this.set("current",this.collection.at(0));
+			//set up the streaming
+			this.soundInit();
 		},
 
-		//handshake with SC
-		scInit: function(){
-			console.log("init")
-			// var init = SC.initialize({
-			// 	client_id: "b2b9bd0bd247e78817bdf696aa8205f0"
-			// });
-
-			// console.log(SC.get("/tracks/53097530"))
-			// SC.stream("/tracks/53097530",function(sound){
-			// 	console.log("stream ready")
-			// 	console.log(sound)
-			// 	// sound.play()
-			// })
-			// SC.whenStreamingReady(function(){
-			// 	SC.stream("/tracks/53097530", {
-			// 	  autoPlay: true
-			// 	});
-			// })
-
-			// console.log(streamo)
+		//initialize soundManager
+		soundInit: function(){
+			console.log("initializing soundManager...")
+			var that = this;
+			soundManager.setup({
+				url: '../components/soundmanager2/swf',
+				// optional: use 100% HTML5 mode where available
+				preferFlash: false,
+				debugMode: false,
+				onready: function() {
+					//play the first track
+					console.log("play")
+					that.get("current").start()
+				},
+				ontimeout: function() {
+					// Hrmm, SM2 could not start. Missing SWF? Flash blocked? Show an error, etc.?
+					console.log("shit broke")
+				}
+			});
 		},
 
 		//get the tracks from the server
 		getTracks: function(){
 			console.log("SPOOF GET TRACKS");
+			var inputs = [];
 			var newTrack = new TrackModel({
 				artist: {
 					name: "The Royal Fucks",
@@ -65,8 +64,23 @@ define([
 					links: ["Link 1","Link 2"]
 				},
 				track: {
-					title: "Some goddamn song",
-					src: "Some link"
+					title: "Sbefseg",
+					src: "/tracks/72047558"
+				}	
+			})
+
+			this.collection.push(newTrack)
+
+			var newTrack = new TrackModel({
+				artist: {
+					name: "T;KADMFKLASDMFASks",
+					city: "BoSADFASDFston",
+					country: "USSADFSADA",
+					links: ["Link 1","Link 2"]
+				},
+				track: {
+					title: "SoASDFASFASg",
+					src: "/tracks/30941816"
 				}	
 			})
 
@@ -81,15 +95,14 @@ define([
 				},
 				track: {
 					title: "Ssdfsaome goddamn song",
-					src: "Somasdfsde link"
+					src: "/tracks/53097530"
 				}	
 			})
 
 			this.collection.push(newTrack2)
 
 
-			console.log("new collection")
-			console.log(this)
+			this.grabImages();
 			//select the first track
 			// this.current = {
 			// };
@@ -101,7 +114,12 @@ define([
 			//try to go to the next track
 			var idx = this.collection.indexOf(this.get("current"))
 			if (this.collection.length > idx+1){ //end
-				this.set("current",this.collection.at(idx+1))
+				//stop the current track
+				this.get("current").stop();
+				//change current track
+				this.set("current",this.collection.at(idx+1));
+				//play current track, pass the view
+				this.get("current").start();
 				return true
 			} else{
 				console.log("can't go forward")
@@ -113,12 +131,39 @@ define([
 			//try to go to the next track
 			var idx = this.collection.indexOf(this.get("current"))
 			if (idx-1 >= 0){ //start
-				this.set("current",this.collection.at(idx-1))
+				//stop the current track
+				this.get("current").stop();
+				//change current track
+				this.set("current",this.collection.at(idx-1));
+				//play current track, pass the view
+				this.get("current").start(this);
 				return true
 			} else{
 				console.log("can't go back")
 				return false
 			}
+		},
+
+		grabImages: function(){
+			this.collection.forEach(this.grabImage)
+		},
+
+		grabImage: function(el,idx,collection){
+			if (!el.get("track").artwork_url){
+				var url = 'http://api.soundcloud.com'+el.get("track").src+'?client_id=b2b9bd0bd247e78817bdf696aa8205f0'
+				$.getJSON(url,function(data){
+					if (data.artwork_url){
+						var curtrack  = el.get("track");
+						curtrack.artwork_url = data.artwork_url;
+						el.set("track",curtrack)
+					} else {
+						var curtrack  = el.get("track");
+						curtrack.artwork_url = 'http://profile.ak.fbcdn.net/hprofile-ak-prn1/c66.66.828.828/s160x160/601362_10151472569134490_512841892_n.jpg';
+						el.set("track",curtrack)
+					}
+					console.log(el.get("track").artwork_url)
+				});
+			};
 		}
 
 	});

@@ -4,8 +4,9 @@ define([
 	'underscore',
 	'backbone',
 	'text!templates/player.html',
-	'views/bandInfo'
-], function ($, _, Backbone, PlayerTemplate, BandInfoView) {
+	'views/bandInfo',
+	'views/coverflow'
+], function ($, _, Backbone, PlayerTemplate, BandInfoView, CoverFlowView) {
 	'use strict';
 
 	var PlayerView = Backbone.View.extend({
@@ -28,6 +29,9 @@ define([
 			// this.model.getTracks();
 			//render the app view
 			this.render();
+
+			//listen for nextTrack events
+			this.listenTo(this.model.get("current"), 'nextTrack', this.nextTrack);
 		},
 
 		render: function(){
@@ -39,6 +43,8 @@ define([
 			this.bandInfoView = new BandInfoView({model:this.model});
 			//populate the band info view
 			this.updateInfo();
+			//create the coverflow view
+			this.coverFlowView = new CoverFlowView({model:this.model});
 		},
 
 		updateInfo: function(){

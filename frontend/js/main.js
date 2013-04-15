@@ -20,9 +20,6 @@ require.config({
 			deps: ['backbone'],
 			exports: 'Store'
 		},
-		soundcloud: {
-			exports: 'SC'
-		},
 		soundmanager2: {
 			exports: 'soundManager'
 		}
@@ -34,8 +31,7 @@ require.config({
 		backbone: '../components/backbone/backbone',
 		backboneLocalstorage: '../components/backbone.localStorage/backbone.localStorage',
 		text: '../components/requirejs-text/text',
-		soundcloud: 'http://connect.soundcloud.com/sdk',
-		soundmanager2 : 'http://connect.soundcloud.com/soundmanager2/soundmanager2'
+		soundmanager2 : '../components/soundmanager2/soundmanager2-jsmin'
 	}
 });
 
