@@ -1,0 +1,671 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clear",
+				"clearInterval"
+			],
+			[
+				"slide",
+				"slideShowToggle"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"photo",
+				"photoseries"
+			],
+			[
+				"add",
+				"add"
+			],
+			[
+				"draw",
+				"drawImage"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"item",
+				"item"
+			],
+			[
+				"pro",
+				"probabilities"
+			],
+			[
+				"input",
+				"inputElements"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"buil",
+				"buildCanvas"
+			],
+			[
+				"APP",
+				"APP"
+			],
+			[
+				"tempcan",
+				"tempcanvas"
+			],
+			[
+				"temp",
+				"tempcanvas"
+			],
+			[
+				"web-image",
+				"web-image-input"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"clien",
+				"clientX"
+			],
+			[
+				"bread",
+				"breadcrumb-container"
+			],
+			[
+				"popover",
+				"popover-trigger"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"cr",
+				"cursor"
+			],
+			[
+				"to",
+				"toJSON"
+			],
+			[
+				"coll",
+				"collViewA"
+			],
+			[
+				"per",
+				"personC"
+			],
+			[
+				"airdr",
+				"airdropInsert"
+			],
+			[
+				"left",
+				"left-panel-content"
+			],
+			[
+				"pading",
+				"padding-right"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"add-comm",
+				"add-comment-button"
+			],
+			[
+				"comment-te",
+				"comment-text-container"
+			],
+			[
+				"strings",
+				"strings_count"
+			],
+			[
+				"make",
+				"makeAuthToken"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"lo",
+				"logo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 863,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"compi",
+				"Coffee: Compile File"
+			],
+			[
+				"pack inst",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"pack list",
+				"Package Control: List Packages"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"packl in",
+				"Package Control: Install Package"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"fetch pa",
+				"Fetch: Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack en",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": true,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alonsoholmes/github/sharalike/cornerstone/design/slideshow/js/slideshow.js",
+		"/Users/alonsoholmes/github/sharalike/cornerstone/design/slideshow/js/sound-source-kong.js",
+		"/Users/alonsoholmes/github/sharalike/cornerstone/design/slideshow/css/slideshow.css",
+		"/Users/alonsoholmes/github/sharalike/cornerstone/design/slideshow/sound-source.js",
+		"/Users/alonsoholmes/github/sharalike/cornerstone/design/landing/css/landing.css",
+		"/Users/alonsoholmes/github/sharalike/cornerstone/design/landing/index.html",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/html/assets/javascripts/1.0.0/conversations.js",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/html/assets/css/1.0.0/default/conversations.css",
+		"/Users/alonsoholmes/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/alonsoholmes/github/sharalike/design/slideshow/test.js",
+		"/Users/alonsoholmes/github/sharalike/design/slideshow/test.coffee",
+		"/Users/alonsoholmes/github/sharalike/design/slideshow/slideshow.html",
+		"/Users/alonsoholmes/github/sharalike/design/slideshow/stitch.html",
+		"/Users/alonsoholmes/github/sharalike/design/slideshow/js/decide.js",
+		"/Users/alonsoholmes/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/alonsoholmes/github/sharalike/design/slideshow/decide.js",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/html/conversations.html",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/bugs.md",
+		"/Users/alonsoholmes/github/sharalike/design/landing/index.html",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/DO NOT UPDATE/scripts/jquery-1.9.0/jquery-1.9.0.js",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/html/assets/javascripts/1.0.0/airdrop.js",
+		"/Users/alonsoholmes/github/sharalike/design/landing/font/fontcustom/fontcustom.css",
+		"/Users/alonsoholmes/github/sharalike/design/landing/css/landing.css",
+		"/Users/alonsoholmes/github/sharalike/design/slideshow/stitch.backup.html",
+		"/Users/alonsoholmes/github/sharalike/design/slideshow/index.html",
+		"/Users/alonsoholmes/github/sharalike/design/slideshow/js/jquery.min.js",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/html/assets/fonts/fontcustom/fontcustom.css",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/html/phototest.html",
+		"/Users/alonsoholmes/github/sharalike/design/slideshow/index.backup3.html",
+		"/Users/alonsoholmes/github/sharalike/design/slideshow/index.backup.html",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/html/assets/fonts/fontcustom/fontcustom.backup.css",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/html/assets/javascripts/1.0.0/files.js",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/html/assets/css/1.0.0/default/files.css",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/html/files.html",
+		"/Users/alonsoholmes/github/sharalike/design/webapp/scripts/adminflare-1.0.0/adminflare.js",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/Static Source/html/assets/css/1.0.0/default/bootstrap.css",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/Static Source/html/assets/css/1.0.0/default/files.css",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/Static Source/html/files.html",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/Static Source/html/assets/javascripts/1.0.0/files.js",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/Static Source/html/conversations.html",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/Static Source/html/assets/javascripts/1.0.0/bootstrap.min.js",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/Static Source/html/assets/css/1.0.0/default/bootstrap.min.css",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/html/conversations.html",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/html/assets/css/1.0.0/default/custom.css",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/html/assets/javascripts/1.0.0/dropdown.js",
+		"/Users/alonsoholmes/github/sharalike/sharalike.sublime-project",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/scripts/adminflare-1.0.0/adminflare.js",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/less/adminflare-1.0.0/basic.less",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/less/adminflare-1.0.0/main-panels.less",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/custom_backup.css",
+		"/Users/alonsoholmes/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/alonsoholmes/github/sharalike/dropdown/js/airdrop.old.js",
+		"/Users/alonsoholmes/github/sharalike/dropdown/css/airdrop.css",
+		"/Users/alonsoholmes/github/sharalike/dropdown/dropdown.html",
+		"/Users/alonsoholmes/Developer/backbone/3/app.js",
+		"/Users/alonsoholmes/Developer/backbone/index.html",
+		"/Users/alonsoholmes/github/sharalike/dropdown/app.js",
+		"/Users/alonsoholmes/github/sharalike/dropdown/js/jquery.min.js",
+		"/Users/alonsoholmes/github/sharalike/dropdown/js/underscore.min.js",
+		"/Users/alonsoholmes/github/sharalike/dropdown/js/backbone.min.js",
+		"/Users/alonsoholmes/github/geotombstone/templates/landing.html",
+		"/Users/alonsoholmes/github/geotombstone/templates/sign_up.html",
+		"/Users/alonsoholmes/github/geotombstone/templates/obituary_page.html",
+		"/Users/alonsoholmes/github/geotombstone/templates/log_in.html",
+		"/Users/alonsoholmes/github/geotombstone/templates/bookmarks.html",
+		"/Users/alonsoholmes/github/geotombstone/templates/add.html",
+		"/Users/alonsoholmes/github/sharalike/dropdown/js/bootstrap.js",
+		"/Users/alonsoholmes/github/sharalike/dropdown/js/airdrop.js",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/themes/default/variables.less",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/html/dashboard.html",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/less/adminflare-1.0.0/navigation-list.less",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/less/adminflare-1.0.0/boxes.less",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/csscompiler.js",
+		"/Users/alonsoholmes/github/sharalike/AdminFlare-1.0.0/themes/sharalike/variables.less",
+		"/Users/alonsoholmes/github/sharalike/conversation.html",
+		"/Users/alonsoholmes/github/sharalike/css/conversation.css",
+		"/Users/alonsoholmes/github/stringr/endpoints/signup.js",
+		"/Users/alonsoholmes/github/stringr/models.js",
+		"/Users/alonsoholmes/github/stringr/api.txt",
+		"/Users/alonsoholmes/github/sharalike/js/conversation.js",
+		"/Users/alonsoholmes/github/sharalike/js/conversation.old.js",
+		"/Users/alonsoholmes/github/sharalike/js/dropzone.js",
+		"/Users/alonsoholmes/github/sharalike/conversation.old.html",
+		"/Users/alonsoholmes/github/sharalike/css/conversation.old.css",
+		"/Users/alonsoholmes/github/handypros/boston-home-repair-handyman.html",
+		"/Users/alonsoholmes/github/handypros/css/custom.css",
+		"/Users/alonsoholmes/github/handypros/index.html",
+		"/Users/alonsoholmes/github/handypros/js/jquery.mobilemenu.js",
+		"/Users/alonsoholmes/github/handypros/js/main.js",
+		"/Users/alonsoholmes/github/handypros/app.yaml",
+		"/Users/alonsoholmes/github/handypros/main.html",
+		"/Users/alonsoholmes/github/handypros/main.py",
+		"/Users/alonsoholmes/github/handypros/css/style.css",
+		"/Users/alonsoholmes/github/handypros/js/jquery.flexslider-min.js",
+		"/Users/alonsoholmes/github/handypros/css/landing.css",
+		"/Users/alonsoholmes/github/handypros/js/jquery.js",
+		"/Users/alonsoholmes/github/handypros/js/jquery.localscroll-1.2.7-min.js",
+		"/Users/alonsoholmes/github/handypros/js/bootstrap-modal.js",
+		"/Users/alonsoholmes/github/handypros/test/js/plugins.js",
+		"/Users/alonsoholmes/github/handypros/js/bootstrap-vanilla.min.js",
+		"/Users/alonsoholmes/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/alonsoholmes/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/alonsoholmes/github/handypros/test.js",
+		"/Users/alonsoholmes/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/alonsoholmes/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/alonsoholmes/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console",
+			"modal",
+			"null",
+			"delete",
+			"remove",
+			"null",
+			"destroy",
+			"remove",
+			"reload",
+			"start",
+			"gauss",
+			"photoseries",
+			"location",
+			"500",
+			"hotspot",
+			"single",
+			"test-1",
+			"tweenval",
+			"tweenval\\",
+			"tweenval",
+			"location.re",
+			"wheel",
+			"easing",
+			"0.5",
+			"view.core.dx",
+			"view.core.x",
+			"view.core.animating.width",
+			"i",
+			"photose",
+			"src",
+			"z-index",
+			"console.log",
+			"[0,0]",
+			"2",
+			"*3",
+			"view.core.z",
+			"console.log",
+			"pattern",
+			"location",
+			"console.log",
+			"view.animating",
+			"drawcir",
+			"draw",
+			"drawcir",
+			"circle",
+			"function()",
+			"curdex",
+			"tweenval",
+			"ctx",
+			"rect",
+			"view",
+			"view.",
+			"view",
+			"inputElements",
+			"view",
+			"rect",
+			"app.core.delta",
+			"APP",
+			"view.",
+			"params",
+			"type",
+			"data-o",
+			"icon",
+			"tooltip-top",
+			"tooltip-right",
+			"original_user",
+			"original-user",
+			"tab-users",
+			"title=\"First User\"",
+			"First users",
+			".tab-users",
+			"this",
+			"console",
+			"elem",
+			"shift",
+			"image",
+			"viewtype",
+			"loadmed",
+			"console.log",
+			"drawcircle",
+			"load",
+			"loadedMedia",
+			"numMedia",
+			"load",
+			"render",
+			"this",
+			"loadmed",
+			"render",
+			"load",
+			"console.log",
+			"$video",
+			"tempctx",
+			"x",
+			"item",
+			"signupBtn",
+			"signup-btn",
+			"inputs",
+			"media[",
+			"media",
+			"Media",
+			"media",
+			"sources",
+			"buildCan",
+			"images",
+			"inputs",
+			".jpg",
+			"-large",
+			"item",
+			"endx",
+			"endy",
+			"endx",
+			"delete tempcanvas\n                // delete tempctx",
+			"button",
+			"42d158",
+			";",
+			"35aa47",
+			"button",
+			"icon-",
+			"candims",
+			"var candims",
+			"bottom-se",
+			"200px",
+			"span2",
+			"offset1",
+			"icon-",
+			".",
+			"candims",
+			"canhigh"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"//console.log"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 863,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								863,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 381.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"190",
+				"AdminFlare-1.0.0/DO NOT UPDATE/scripts/jquery-1.9.0/jquery-1.9.0.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true
+}
